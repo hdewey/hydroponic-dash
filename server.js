@@ -8,11 +8,11 @@ const bucket = require('./modules/download.js');
 //bucket.clean().catch((err) => {console.log('error / warning:', err)});
 //bucket.download().catch((err) => {console.log('error / warning:', err.code)});
 
-var c = schedule.scheduleJob('0 1 * ? * * *', function() {
+var c = schedule.scheduleJob('1 * * * *', function() {
   bucket.clean().catch((err) => {console.log('error / warning:', err)});
 })
 
-var c = schedule.scheduleJob('0 2 * ? * * *', function() {
+var c = schedule.scheduleJob('3 * * * *', function() {
   bucket.download().catch((err) => {console.log('error / warning:', err.code)});
 })
 
