@@ -1,9 +1,9 @@
 const url = "https://awareness-prepaid-festival-camcorders.trycloudflare.com"
 
 const turnOn = () => {
-  fetch(url + '/lights/on')
+  fetch(url + '/admin/lights/on');
 };
 
 const turnOff = () => {
-  fetch(url + '/lights/off')
+  fetch(url + '/admin/lights/off');
 };
