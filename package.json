@@ -1170,7 +1170,7 @@
       "resolved": "https://registry.npmjs.org/expand-tilde/-/expand-tilde-2.0.2.tgz",
       "version": "2.0.2"
     },
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "ext": {
       "dependencies": {
         "type": {
